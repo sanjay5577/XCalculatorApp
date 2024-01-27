@@ -42,7 +42,7 @@ function App() {
   return (
     <div className="App">
       <h1>React Calculator</h1>
-      <input value ={input}/>
+      <input value ={input} type="text"/>
       <div className='result'>{result ? result: (isNaN(result) ? NaN : null)}</div>
       <div>
       <button onClick={handleInput} className='button'  value="7">7</button>
